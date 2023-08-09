@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f6f6f8;
     color: #333;
 }
 
@@ -39,9 +39,15 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 5rem 0;
-    background-color: #3498db;
-    background-image: https://i.pinimg.com/564x/d4/57/4c/d4574c8b662b0fbeaaad5019cf8b04ce.jpg;
+    width: 100%;
+    background-color: red;
+    height: 90vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image:url('syaira1.jpg');
+  flex-direction: column;
     color: #ffffff;
 }
 
@@ -52,6 +58,7 @@ nav a:hover {
     color: #ffffff;
     text-decoration: none;
     border-radius: 3px;
+    background-size: cover;
     transition: background-color 0.3s;
 }
 
